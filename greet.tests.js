@@ -1,12 +1,16 @@
 describe("the greet function", function () {
 
-    it("greet Bob with 'Hello, Bob'", function () {
+    it("It should return 'Hello' with a name passed in.", function () {
         assert.equal(greet('Bob'), 'Hello, Bob');
 
 
     });
 
-    it("greet Sam with 'Hello, Sam'", function () {
+    it("It should return 'Hello' with a name passed in.", function () {
        assert.equal(greet('Sam'), 'Hello, Sam');
     });
+
+    it("It should return 'Hello' with a name passed in", function () {
+        assert.equal(greet('Saffah'), 'Hello, Saffah');
+    });     
 });
